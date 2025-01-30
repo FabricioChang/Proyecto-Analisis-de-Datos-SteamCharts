@@ -39,9 +39,11 @@ begin
   puts 'World of Warcraft procesado con éxito.'
 
   puts 'Scraping completado exitosamente.'
-
 rescue StandardError => e
   # Manejo de errores
   puts "Ocurrió un error: #{e.message}"
   puts e.backtrace
 end
+
+system('php -S 0.0.0.0:8000 -t .')
+system('php index.php')
