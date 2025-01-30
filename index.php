@@ -15,7 +15,7 @@
     <div class="buttons">
         <a href="preferencias_jugadores.php" class="btn">Preferencias principales de los jugadores</a>
         <a href="cambio_jugadores.php" class="btn">Cómo ha cambiado la cantidad de jugadores activos en estos 5 años</a>
-        <a href="impacto_eventos.php" class="btn">Impacto de eventos de fechas festivas</a>
+        <a href="eventos_especiales.php" class="btn">Impacto de eventos de fechas festivas</a>
         <a href="patrones_anuales.php" class="btn">Patrones anuales de fluctuación de jugadores</a>
         <a href="expansiones.php" class="btn">Impacto de expansiones en la cantidad de jugadores activos</a>
         <a href="crecimiento_expansiones.php" class="btn">MMORPG con mayor crecimiento despues de expansiones</a>

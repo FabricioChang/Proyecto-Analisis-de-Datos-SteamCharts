@@ -25,6 +25,7 @@
             justify-content: space-between;
             align-items: center;
             margin: 20px 0;
+            gap: 20px;
         }
         .chart-container {
             width: 90%;
@@ -201,11 +202,7 @@
 
         <div class="analysis-box">
             <h2>Análisis del Gráfico</h2>
-            <p>El análisis de los gráficos sugiere que las expansiones de los MMORPGs tienen un impacto significativo en el comportamiento de los jugadores, aunque este efecto varía según el juego. Juegos como Final Fantasy XIV y The Elder Scrolls Online muestran un crecimiento pronunciado del promedio de jugadores tras ciertas expansiones clave, lo que indica el éxito en captar la atención de la comunidad. Por ejemplo, expansiones como Endwalker en Final Fantasy XIV y Greymoor en The Elder Scrolls Online lograron picos considerables en el promedio de jugadores mensuales después de su lanzamiento.<br>
-
-                Sin embargo, en otros casos, como Guild Wars 2 y The Lord of the Rings Online, se observa una respuesta moderada o incluso una disminución en el promedio de jugadores después de ciertas expansiones. Este fenómeno puede atribuirse a diversos factores, como la falta de contenido atractivo o la competencia con otros juegos en el mercado.<br>
-
-                Por otro lado, Path of Exile presenta un comportamiento mixto, con expansiones exitosas que generan picos notables, pero también periodos de estabilización o reducción en el promedio de jugadores en expansiones menos impactantes. En general, los datos sugieren que el éxito de una expansión no solo depende de su contenido, sino también del contexto del mercado y de las estrategias de marketing empleadas.</p>
+            <p>Para mejorar el proyecto, se recomienda explorar tecnologías avanzadas de scraping como Scrapy para optimizar la extracción de datos y migrar el almacenamiento de archivos CSV a bases de datos relacionales como MySQL para facilitar consultas futuras. Además, se sugiere utilizar frameworks modernos como Laravel para mejorar la seguridad y eficiencia del backend, así como implementar técnicas avanzadas de limpieza y preprocesamiento de datos para garantizar visualizaciones precisas y de alta calidad.</p>
         </div>
 
         <a href="index.php" class="btn-volver">Volver al inicio</a>
