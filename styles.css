@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  h1 {
+    color: #4CAF50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: #555;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  /* Estilo para ambos tipos de botones */
+  .btn, .btn-volver, .btn-small {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .btn:hover, .btn-volver:hover, .btn-small:hover {
+    background-color: #45a049;
+  }
+  
+  .btn:active, .btn-volver:active, .btn-small:active {
+    background-color: #3e8e41;
+  }
+  
